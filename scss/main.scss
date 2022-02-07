@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+
+@import './elementos/colores';
+@import './elementos/elementos';
+
+//uso de importciones
+@import './secciones/index';
+@import './header_footer/header';
+@import './header_footer/footer';
+
+.colBar {   
+    background-color: $marron;
+  }
+
