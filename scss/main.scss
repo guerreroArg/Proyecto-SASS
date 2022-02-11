@@ -1,19 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-@import './elementos/colores';
-@import './elementos/elementos';
+@media (min-whidth: 576px) {
+  .vid2 {
+    display: none;
+  }
+}
+
+@import "./elementos/colores";
+@import "./elementos/elementos";
+
 
 //uso de importciones
-@import './secciones/index';
-@import './header_footer/header';
-@import './header_footer/footer';
+@import "./secciones/index";
+@import "./header_footer/header";
+@import "./header_footer/footer";
 
-.colBar {   
-    background-color: $marron;
-  }
-
+.colBar {
+  background-color: $marron;
+}

@@ -1,48 +1,63 @@
 .vid1 {
-    display: flex;
-    align-items: center;
-    padding: 11px;
-  }
-  
-  .vid2 {
-    display: flex;
-    align-items: center;
-    padding: 0px;
-    margin: 35px;
-  }
-  
-  .acc {
-    margin: 22px;
-    padding: 14px;
-  }
-  
-  .bic {
-    margin: 22px;
-    padding: 14px;
-  }
-  
-  .bic {
-    grid-row: auto;
-    justify-content: space-around;
-    width: 350px;
-    height: 350px;
-  }
-  .vid2 {
-    width: 300px;
-    height: 400px;
-  }
-  .map {
-    display: inline-flex;
-    justify-content: space-around;
-  }
-  .bottom {
-    background-color: rgb(187, 177, 141);
-  }
-  h5 {
-    color: thistle;
-    background-color: rgb(56, 59, 83);
-  }
-  p{
-      text-align: center;
-      font-size: 35px;
-  }
+  display: flex;
+  align-items: center;
+  padding: 11px;
+}
+
+.vid2 {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 35px;
+}
+
+.acc {
+  margin: 22px;
+  padding: 14px;
+}
+
+.bic {
+  margin: 22px;
+  padding: 14px;
+}
+
+.bic {
+  grid-row: auto;
+  justify-content: space-around;
+  width: 350px;
+  height: 350px;
+}
+
+.vid2 {
+  width: 300px;
+  height: 400px;
+}
+
+/*.map{
+  @extend %estiloMap
+}*/
+
+
+.map {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 650px;
+  height: 500px;}
+
+
+.bottom {
+  background-color: rgb(187, 177, 141);
+}
+
+h5 {
+  color: thistle;
+  background-color: rgb(56, 59, 83);
+}
+h3 {
+  color: $redes;
+  font-size: 25px;
+}
+p {
+  text-align: center;
+  font-size: 35px;
+}

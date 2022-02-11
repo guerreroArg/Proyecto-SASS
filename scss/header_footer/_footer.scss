@@ -1,40 +1,42 @@
 .colFoot {
-    background-color: $foot;
-    height: 10vh;
-  }
-  .footerSocial a {
-    text-align: center;
-    color: rgb(2, 2, 2);
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    margin: 6px;
-    transition: transform 0.5s;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 2rem;
-  }
-  
-  .footerSocial a:hover {
-    transform: scale(1.2);
-    text-align: center;
-  }
-  
-  .footerText {
-    font-stretch: condensed;
-    text-align: center;
-    color: thistle;
-  }
-  
-  .menuFooter li a {
-    color: rgb(2, 1, 1);
-    margin: 10px;
-    text-decoration: none;
-    display: inline-block;
-    padding: 6px;
-  }
-  
-  .menuFooter li:hover {
-    background-color: rgb(209, 202, 177);
-    box-shadow: 3px 3px rgb(39, 32, 18);
-  }
+  background-color: $foot;
+  height: 10vh;
+}
+.footerSocial a {
+  text-align: center;
+color: rgb(2, 2, 2);
+width: 28px;
+height: 28px;
+border-radius: 50%;
+margin: 10px;
+transition: transform 0.5s;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 2rem;
+
+}
+
+.footerSocial a:hover {
+  transform: scale(1.7);
+  text-align: center;
+  color: #c94b3a;
+}
+
+.footerText {
+  font-stretch: condensed;
+  text-align: center;
+  color: thistle;
+}
+
+.menuFooter li a {
+  color: rgb(2, 1, 1);
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px;
+}
+
+.menuFooter li:hover {
+  background-color: rgb(209, 202, 177);
+  box-shadow: 3px 3px rgb(39, 32, 18);
+}

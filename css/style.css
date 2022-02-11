@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
+@media (min-whidth: 576px) {
+  .vid2 {
+    display: none; } }
+
 .vid1 {
   display: flex;
   align-items: center;
@@ -32,9 +36,14 @@
   width: 300px;
   height: 400px; }
 
+/*.map{
+  @extend %estiloMap
+}*/
 .map {
   display: inline-flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  width: 650px;
+  height: 500px; }
 
 .bottom {
   background-color: #bbb18d; }
@@ -42,6 +51,10 @@
 h5 {
   color: thistle;
   background-color: #383b53; }
+
+h3 {
+  color: #ffffff;
+  font-size: 25px; }
 
 p {
   text-align: center;
@@ -77,6 +90,19 @@ p {
 .altura3 {
   height: 15vh; }
 
+@media (max-whidth: 576px) {
+  .logo {
+    margin: 2px;
+    padding: 10px;
+    height: 150px; }
+  .vid2 {
+    width: 382px;
+    height: 243px; }
+  .llegada {
+    height: 150px;
+    margin: 19px;
+    z-index: 2; } }
+
 .colMain {
   background-color: #d4d6b9; }
 
@@ -90,15 +116,16 @@ p {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  margin: 6px;
+  margin: 10px;
   transition: transform 0.5s;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 2rem; }
 
 .footerSocial a:hover {
-  transform: scale(1.2);
-  text-align: center; }
+  transform: scale(1.7);
+  text-align: center;
+  color: #c94b3a; }
 
 .footerText {
   font-stretch: condensed;

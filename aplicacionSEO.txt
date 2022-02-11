@@ -1,0 +1,8 @@
+Aplique Keywords y descriptions a cada pagina referentes a su contenido.
+Aplique Shortcut icon y nombre de seccion a cada pagina del site.
+Aplique texto alternativo a cada imagen y video.
+Mas descripcion en textos.
+Modifique barra de nav para que sean siempre visibles las secciones, solo "contacto" y "Encuentranos" quedan en Dropdown.
+Corregi errores ortograficos y acentos.
+Corregi todos los html lang= "es".
+

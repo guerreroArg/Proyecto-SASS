@@ -34,3 +34,23 @@
   .altura3 {
     height: 15vh;
   }
+
+  @media (max-whidth: 576px){
+    .logo {
+      margin: 2px;
+      padding: 10px;
+      height: 150px;
+      }
+      .vid2 {
+        width: 382px;
+        height: 243px;
+      }
+    
+    .llegada {
+      height: 150px;
+      margin: 19px;
+      z-index: 2;
+
+
+  }
+}
