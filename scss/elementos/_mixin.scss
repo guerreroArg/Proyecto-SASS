@@ -1,0 +1,13 @@
+@mixin cont1 {
+  font-stretch: condensed;
+  text-align: center;
+  color: $redes;
+  transition: transform 0.2s;
+
+  &:hover {
+    color: $copy;
+    transform: scale(1.5);
+    border-bottom: 20%;
+    padding-bottom: 10px;
+  }
+}

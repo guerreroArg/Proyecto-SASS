@@ -1,56 +1,23 @@
-.head{
-    
-    .logo {
-        margin: 2px;
-        padding: 10px;
-        height: 280px;
-        }
-      
-      .llegada {
-        height: 250px;
-        margin: 19px;
-        z-index: 2;
-      }
-      .colHead {
-        background-color: $head;
-        height: 25vh;
-      }
-      .p {
-        font-size: 20px;
-        color: white;
-        margin: 36px;
-        display: flex;
-        justify-content: right;
-        }
-}
-.altura1 {
-    height: 30vh;
-  }
-  
-  .altura2 {
-    height: 55vh;
-  }
-  
-  .altura3 {
-    height: 15vh;
+.head {
+  .logo {
+    margin: 2px;
+    padding: 10px;
+    height: 100%;
   }
 
-  @media (max-whidth: 576px){
-    .logo {
-      margin: 2px;
-      padding: 10px;
-      height: 150px;
-      }
-      .vid2 {
-        width: 382px;
-        height: 243px;
-      }
-    
-    .llegada {
-      height: 150px;
-      margin: 19px;
-      z-index: 2;
-
-
+  .llegada {
+    height: 95%;
+    margin: 5px;
+  }
+  .colHead {
+    background-color: $head;
+    height: 25vh;
+  }
+  .p {
+    font-size: 20px;
+    color: white;
+    margin: 36px;
+    display: flex;
+    justify-content: right;
   }
 }

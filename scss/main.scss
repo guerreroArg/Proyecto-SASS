@@ -4,17 +4,12 @@
   box-sizing: border-box;
 }
 
-@media (min-whidth: 576px) {
-  .vid2 {
-    display: none;
-  }
-}
-
 @import "./elementos/colores";
 @import "./elementos/elementos";
+@import './elementos/extend';
+@import './elementos/mixin';
 
 
-//uso de importciones
 @import "./secciones/index";
 @import "./header_footer/header";
 @import "./header_footer/footer";
@@ -22,3 +17,13 @@
 .colBar {
   background-color: $marron;
 }
+.head .p{
+  margin: 10px;
+}
+.texto {
+  @extend %estiloParrafos;
+}
+.footerText {
+  @include cont1();
+ }
+

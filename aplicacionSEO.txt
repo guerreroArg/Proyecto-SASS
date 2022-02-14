@@ -5,4 +5,7 @@ Mas descripcion en textos.
 Modifique barra de nav para que sean siempre visibles las secciones, solo "contacto" y "Encuentranos" quedan en Dropdown.
 Corregi errores ortograficos y acentos.
 Corregi todos los html lang= "es".
+Aplique %extend a parrafos.
+Aplique @mixin a linea de texto copyright.
+Corregi tamaños de imagenes y videos de px a %
 
