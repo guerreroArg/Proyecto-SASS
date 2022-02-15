@@ -6,9 +6,8 @@
 
 @import "./elementos/colores";
 @import "./elementos/elementos";
-@import './elementos/extend';
-@import './elementos/mixin';
-
+@import "./elementos/extend";
+@import "./elementos/mixin";
 
 @import "./secciones/index";
 @import "./header_footer/header";
@@ -17,13 +16,41 @@
 .colBar {
   background-color: $marron;
 }
-.head .p{
+
+.head .p {
   margin: 10px;
 }
+
 .texto {
   @extend %estiloParrafos;
 }
+
 .footerText {
   @include cont1();
- }
+}
 
+.dl, ol, ul {
+  margin-bottom: 0;
+  background-color: #383b53;
+  background-color: $foot;
+  list-style-type: none;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.dropdown-item {
+  color: #c9ae95;
+  font-size: 1.3rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #d6a06d;
+}
+
+.navbar-light .navbar-brand {
+  color: #d6a06d;
+  background-color: #383b53;
+  margin: 5px;
+  padding: 3px;
+  font-size: 1.5rem;
+}
