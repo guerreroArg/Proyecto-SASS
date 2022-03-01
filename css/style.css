@@ -91,6 +91,10 @@ p {
 .colMain {
   background-color: #d4d6b9; }
 
+h1 {
+  color: #d2d8a8;
+  justify-content: center; }
+
 .colFoot {
   background-color: #383b53;
   height: 10.5vh; }
@@ -107,12 +111,17 @@ p {
   margin-bottom: 0px;
   font-size: 2rem;
   padding-left: 0; }
+  .footerSocial a:hover {
+    transform: scale(1.7);
+    text-align: center;
+    color: #1a7ca3; }
 
+/*
 .footerSocial a:hover {
   transform: scale(1.7);
   text-align: center;
-  color: #1a7ca3; }
-
+  color: #1a7ca3;
+}*/
 .colBar {
   background-color: #777672; }
 
