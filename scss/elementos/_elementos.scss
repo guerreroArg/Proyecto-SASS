@@ -1,8 +1,8 @@
 .vid1 {
   display: flex;
   align-items: center;
-  padding: 11px;;
-  max-width: 90%
+  padding: 11px;
+  max-width: 110%
 }
 
 .vid2 {
@@ -10,7 +10,7 @@
   align-items: center;
   padding: 0px;
   margin: 19px;
-  max-width: 90%;
+  max-width: 80%;
 }
 
 .acc {
@@ -21,20 +21,18 @@
 .bic {
   margin: 22px;
   padding: 14px;
-}
-
-.bic {
   grid-row: auto;
   justify-content: space-around;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 80%;
+  max-height: 80%;
 }
 
 .map {
   display: inline-flex;
   justify-content: space-around;
   max-width: 650px;
-  max-height: 500px;}
+  max-height: 500px;
+}
 
 
 .bottom {
@@ -57,15 +55,21 @@ p {
   margin-bottom: 0;
 }
 
-.pMap{
-display: inline-block;
-text-align: right;
+.pMap {
+  display: inline-block;
+  text-align: right;
 }
 
-.logoGrande{
+.logoGrande {
   display: inline-block;
   max-width: 300%;
   margin: 25px;
   justify-content: space-around;
+}
 
+.contacto {
+  font-size: 30px;
+  font-style: oblique;
+  padding: 1em;
+  color: rgb(206, 97, 20);
 }

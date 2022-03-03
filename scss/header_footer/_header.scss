@@ -1,7 +1,19 @@
 .colMain {
-background-color: $main;    
+  background-color: $main;
 }
-h1{
-    color: $copy;
-    justify-content: center;
+
+h1 {
+  color: $copy;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo {
+  border-radius: 20%;
+  transition: transform 1.3s;
+
+  &:hover {
+    transform: scale(0.8);
+    text-align: center;
+  }
 }
